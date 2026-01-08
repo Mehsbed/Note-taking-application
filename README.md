@@ -45,49 +45,6 @@ A modern, full-stack note-taking application built with Next.js, MongoDB, and Ta
 - **Notifications**: Sonner
 - **Deployment Ready**: Configured for Vercel or similar platforms
 
-## 📋 Prerequisites
-
-Before running this application, ensure you have the following installed:
-
-- **Node.js** (v18 or higher) - [Download here](https://nodejs.org/)
-- **npm** or **yarn** package manager
-- **MongoDB Atlas account** (or local MongoDB instance)
-
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/Mehsbed/Note-taking-application.git
-cd Note-taking-application
-```
-
-### 2. Install Dependencies
-
-```bash
-npm install
-```
-
-### 3. Configure MongoDB
-
-The application uses MongoDB Atlas. The connection string is configured in `lib/mongodb.ts`. 
-
-If you need to use a different database, update the `MONGODB_URI` constant in that file.
-
-### 4. Run the Development Server
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
-
-### 5. Build for Production
-
-```bash
-npm run build
-npm start
-```
 
 ## 📁 Project Structure
 
